@@ -1,24 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This app was created for beginners to deepen my understanding of learning.
 
-Things you may want to cover:
+Includes the basics of CRUD application development
 
-* Ruby version
+I also use helpers such as link_to to learn how to use commands.
 
-* System dependencies
+I was able to deepen the understanding of validate by displaying an error when questions and answers are blank and updated. However, I did not introduce validate first, so I also struggled because the conditional branching did not work well.
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+In addition, since the new posting screen and the editing screen for questions have almost the same view, it is also one of the points where refactoring is also performed according to the DRY principle to improve the readability of the code.
